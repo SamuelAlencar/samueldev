@@ -217,10 +217,16 @@ export const experiencesData = [
   {
     title: "Bacharelado em Sistemas de Informação",
     location: "UNIBAN – Campus Osasco",
-    description: "Conclusão: 2011",
+    description:
+      "Formação que consolidou a base em tecnologia, análise de sistemas e desenvolvimento de software, conectando fundamentos técnicos às necessidades do negócio.",
     icon: React.createElement(LuGraduationCap),
     date: "2011",
-    flags: [],
+    flags: [
+      "Análise de Sistemas",
+      "Desenvolvimento de Software",
+      "Banco de Dados",
+      "Engenharia de Software",
+    ],
   },
 ] as const;
 
